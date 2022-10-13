@@ -1,0 +1,26 @@
+body {
+	background-color: Azure;
+}
+
+h1 {
+	font-family: cursive;
+	color: DarkBlue;
+	font-size: 72px;
+	font-weight: 900;
+}
+
+table {
+	background-color: bisque;
+	border-collapse: collapse;
+	border: 2px solid blue;
+}
+
+th{
+	border: 2px solid blue;
+}
+
+
+td{
+	border: 2px solid blue;
+}
+
