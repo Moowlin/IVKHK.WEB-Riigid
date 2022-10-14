@@ -1,26 +1,85 @@
+/*Шрифты*/
+@font-face{
+	font-family: runic;
+    src: url('/fonts/Runic.ttf'); 
+}
+
+/*Тело*/
 body {
 	background-color: Azure;
+	margin-left: 200px;
+	margin-right: 200px;
 }
 
+/*Абзац*/
+p.test{
+	font-family: runic, "Comic Sans MS", cursive, sans-serif;
+	font-size: 50px;
+	text-align: center;
+	margin: 30px;
+	color: DimGrey;
+}
+
+/*Заголовки*/
 h1 {
-	font-family: cursive;
-	color: DarkBlue;
-	font-size: 72px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: Black;
+	font-size: 50px;
 	font-weight: 900;
+	margin: 10px
 }
 
-table {
-	background-color: bisque;
+a{
+	color: Black;
+}
+
+
+/*Таблица*/
+table{
+	margin: 0 auto;
+}
+
+table,th, td{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20px;
+	border: 5px solid blue;
 	border-collapse: collapse;
-	border: 2px solid blue;
+	border-color: LightSlateGrey;
 }
-
-th{
-	border: 2px solid blue;
-}
-
 
 td{
-	border: 2px solid blue;
+	text-align: center;
 }
 
+td.country-description, td.floor{
+	font-size: 72px;
+	text-align: left;
+	vertical-align: top;
+	font-size: 15px;
+}
+
+td.country-description{
+	padding: 1em;
+}
+
+
+/*Картинки*/
+img.img-simbol{
+	border-radius: 70%;
+	border: 5px solid Gainsboro;
+}
+
+img.img-flag{
+	width: 180px;
+	height: 100px;
+	border: 1px solid Gainsboro;
+    border-radius: 4px;
+    margin: 0.5em;
+}
+
+img.img-gerb{
+	border: 1px solid Gainsboro;
+    border-radius: 4px;
+    padding: 5px;
+    width: 170px;
+}
