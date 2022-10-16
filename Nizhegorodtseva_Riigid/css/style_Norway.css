@@ -53,6 +53,14 @@ a{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+/*Списки*/
+ul{
+	text-align: justify;
+	margin: 0px 40px 10px 40px;
+	font-size: 15px;
+	color: DimGrey;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
 
 /*Абзацы*/
 p {
@@ -75,23 +83,23 @@ p.poin-navigation{
 }
 
 /*Таблица*/
-#climat, #climat th, #climat td{
+.climat, .climat th, .climat td{
 	border: 2px solid Gainsboro;
 	border-collapse: collapse;
 	text-align: center;
 }
-#climat{
-	width: 300px;
-	float: right;
-	margin: 0px 50px 10px 10px;
+.climat{
+	width: 500px;
+	margin: auto;
+	margin-bottom: 10px;
 }
 
-#climat caption {
+.climat caption{
 	padding: 7px;
 	background: Gainsboro;
 }
 
-#climat tr:hover td {
+.climat tr:hover td{
 	background: #e8edff;
 }
 
@@ -110,8 +118,16 @@ p.poin-navigation{
 img.img-left{
 	float: left;
 	width: 340px;
-	height: 340px;
+	height: auto;
 	margin: 5px 5px 5px 40px;
+	border: 2px solid Gainsboro;
+}
+
+img.img-right{
+	float: right;
+	width: 300px;
+	height: auto;
+	margin: 5px 40px 5px 5px;
 	border: 2px solid Gainsboro;
 }
 
@@ -140,3 +156,5 @@ img.split{
 	margin: auto;
 	display: block;
 }
+
+
