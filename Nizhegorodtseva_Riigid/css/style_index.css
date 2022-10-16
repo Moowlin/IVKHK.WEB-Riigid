@@ -12,9 +12,9 @@ body {
 }
 
 /*Абзац*/
-p.test{
+p.header-text{
 	font-family: runic, "Comic Sans MS", cursive, sans-serif;
-	font-size: 50px;
+	font-size: 3vw;
 	text-align: center;
 	margin: 30px;
 	color: DimGrey;
@@ -60,6 +60,7 @@ td.country-description, td.floor{
 
 td.country-description{
 	padding: 1em;
+	text-align: left;
 }
 
 
