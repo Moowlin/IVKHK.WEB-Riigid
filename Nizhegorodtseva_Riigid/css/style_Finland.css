@@ -9,6 +9,7 @@ body {
 	background-color: Azure;
 	margin-left: 200px;
 	margin-right: 200px;
+	margin-top: 0px;
 	border: 20px solid ;
 	-moz-border-image: url(/images/kelt.png) 107 107 107 107 repeat; /* Firefox 4 */
 	-webkit-border-image: url(/images/kelt.png) 107 107 107 107 repeat; /* Safari 5 и Chrome */
@@ -49,9 +50,17 @@ h3 {
 /*Ссылки*/
 a{
 	color: Black;
-	font-family: "Comic Sans MS", cursive, sans-serif;;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
+/*Списки*/
+ul{
+	text-align: justify;
+	margin: 0px 40px 10px 40px;
+	font-size: 15px;
+	color: DimGrey;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
 
 /*Абзацы*/
 p {
@@ -81,8 +90,8 @@ p.poin-navigation{
 }
 #climat{
 	width: 300px;
-	float: right;
-	margin: 0px 50px 10px 10px;
+	margin: auto;
+	margin-bottom: 10px;
 }
 
 #climat caption {
