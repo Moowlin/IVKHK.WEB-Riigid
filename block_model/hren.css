@@ -1,0 +1,72 @@
+body{
+    border:  5px solid ;
+    border-color: red;
+    background-color: black;
+}
+
+div {
+    background-color: DarkKhaki;
+    width: 70%;
+    margin: auto;
+}
+
+header{
+    border:  5px solid ;
+    border-color: PaleGreen;
+}
+
+aside.right{
+    border:  5px solid ;
+    border-color: HotPink;
+    width: 20%;
+    float: left;
+}
+
+aside.left{
+    border:  5px solid ;
+    border-color: HotPink;
+    width: 25%;
+    float: left;
+}
+
+nav{
+    background-color: aqua;
+}
+
+main{
+    border: 6px solid darkblue;
+    float: left;
+    width: 50%;
+}
+
+section {
+    border: 3px solid DarkGreen;
+    background-color: tomato;
+    overflow: hidden;
+    padding: 7px;
+    margin: 10px;
+}
+
+article.left {
+    float: left;
+    border: 3px solid BlueViolet;
+    width: 45%;
+    background-color: LemonChiffon;
+    margin: 3px;
+    padding: 5px;
+}
+
+article.right {
+    float: right;
+    border: 3px solid BlueViolet;
+    width: 45%;
+    background-color: LemonChiffon;
+    margin: 3px;
+    padding: 5px;
+}
+
+footer{
+    background-color: Yellow;
+    clear: both;
+}
+
