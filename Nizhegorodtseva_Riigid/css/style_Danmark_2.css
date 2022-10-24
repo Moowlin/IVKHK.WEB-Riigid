@@ -1,0 +1,198 @@
+/*Шрифты*/
+@font-face{
+	font-family: runic;
+    src: url('/fonts/Runic.ttf'); 
+}
+
+
+/*Тело*/
+body {
+	/*background-color: Azure;*/
+	margin: auto;
+	border: 2px solid ;
+	min-width: 600px;
+	max-width: 1300px;
+	/*-moz-border-image: url(/images/kelt.png) 107 107 107 107 repeat;*/ /* Firefox 4 */
+	/*-webkit-border-image: url(/images/kelt.png) 107 107 107 107 repeat;*/ /* Safari 5 и Chrome */
+	/*-o-border-image: url(/images/kelt.png) 107 107 107 107 repeat;*/ /* Opera 10.5 */
+	/*border-image: url(/images/kelt.png) 107 107 107 107 repeat;*/ /* CSS3 */
+	
+}
+
+header{
+	border: 5px solid green;
+}
+
+nav.page-nav{
+	border: 5px solid  #e23a48;
+	width: 50%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+div.page-nav-el{
+	border: 2px solid  #3a61e2;
+	margin: 2px;
+}
+
+div.body-site{
+	border: 5px solid rgb(17, 48, 223);
+	display: flex;
+	justify-content: space-between;
+}
+
+aside.left{
+	border:  5px solid ;
+    border-color: HotPink;
+}
+
+nav.general-nav{
+	text-align: left;
+	border: 5px solid red;
+	position: sticky;
+	top: 0;
+	padding-right: 25px;
+}
+
+main{
+	border: 5px solid rgb(109, 21, 190);
+}
+
+
+div.img-split{
+	border:  5px solid rgb(6, 235, 37);
+}
+
+
+div.sym-nav{
+	border:  5px solid rgb(6, 189, 235);
+}
+
+section{
+	border:  5px solid rgb(235, 162, 6);
+}
+
+
+footer{
+	border:  5px solid rgb(158, 26, 103);
+}
+
+
+
+
+/*Заголовки*/
+h1 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: Black;
+	text-align: center;
+	font-size: 72px;
+	font-weight: 900;
+	margin: 10px;
+	border-top: 5px ridge MidnightBlue;
+	border-bottom: 5px ridge MidnightBlue;
+}
+
+h2 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: Black;
+	text-align: center;
+	font-size: 35px;
+	font-weight: lighter;
+	margin: 20px 10px 10px 0px;
+}
+
+h3 {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: Black;
+	text-align: leftr;
+	font-size: 20px;
+	font-weight: lighter;
+	/*margin: 20px 10px 10px 0px;*/
+}
+
+/*Ссылки*/
+a{
+	color: Black;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+/*Абзацы*/
+p {
+	text-align: justify;
+	margin: 0px 40px 10px 40px;
+	font-size: 15px;
+	color: DimGrey;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p.header-text{
+	font-family: runic, "Comic Sans MS", cursive, sans-serif;
+	font-size: 3vw;
+	text-align: center;
+	margin: 30px;
+	color: DimGrey;
+}
+p.poin-navigation{
+	text-align: center;
+}
+
+/*Таблица*/
+#climat, #climat th, #climat td{
+	border: 2px solid Gainsboro;
+	border-collapse: collapse;
+	text-align: center;
+}
+#climat{
+	width: 300px;
+	float: right;
+	margin: 0px 50px 10px 10px;
+}
+
+#climat caption {
+	padding: 7px;
+	background: Gainsboro;
+}
+
+#climat tr:hover td {
+	background: #e8edff;
+}
+
+
+
+
+/*Картинки*/
+img.img-left{
+	float: left;
+	width: 340px;
+	height: 340px;
+	margin: 5px 5px 5px 40px;
+	border: 2px solid Gainsboro;
+}
+
+img.symbol-navigation{
+	display: block;
+	margin-left: auto;
+	margin-right: 0px;
+	width: 50px;
+	height: 60px;
+}
+
+img.sight{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+	border: 5px solid Gainsboro;
+}
+
+img.split{
+	width: 244px;
+	height: 54px;
+	margin: auto;
+	display: block;
+}
